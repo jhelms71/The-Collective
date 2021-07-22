@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="JS/contact-form.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+</head>
+<body>
+<!-- some sort of dropdown/radio group might be beneficial to add,
+     to let whoever is sending a message filter what the message is about
+     such as "media inquiry", "project idea", "info on artist", etc-->
+    <header>
+        <h1 class="top_title_left">The Collective</h1>
+
+        <div class="navbar topnav">
+            <a href="index.html" class="">Home</a>
+            <div class="dropdown">
+                <a class="dropbtn">Artists</a>
+                <div class="dropdown-content">
+                    <a href="artists.html">All</a>
+                    <a href="zoe.html">Zoe</a>
+                    <a href="david.html">David</a>
+                    <a href="jonathan.html">Jonathan</a>
+                </div>
+            </div>
+            <a href="store.html">Shop</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+
+        <!--
+        <div class="topnav">
+            <a class="active" href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="store.html">Shop</a>
+            <a href="artists.html">Artists</a>
+            <a href="index.html">Home</a>
+        </div><br> -->
+
+
+    </header>
+    <br>
+    <h1 class="top_title">Contact</h1><hr>
+    <form>
+        <label>
+            <input id="name" type="text" class="feedback-input" placeholder="Name"/>
+            <input id="email" type="email" class="feedback-input" placeholder="Email"/>
+            <input id="subject" type="text" class="feedback-input" placeholder="Subject"/>
+            <textarea id="text" class="feedback-input" placeholder="Comment"></textarea>
+        </label>
+        <label>
+
+        </label>
+        <label>
+<!--            <input id="submit" />-->
+            <input type="button" id="submit" value="Send Message"/>
+<!--        type="submit"     value="Send"-->
+        </label>
+    </form>
+
+    <footer>
+        <div>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-soundcloud"></a>
+            <h1 class="foot-title">The Collective</h1>
+        </div>
+    </footer>
+</body>
+</html>
